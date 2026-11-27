@@ -1,0 +1,7 @@
+Measured 2026-11-27 on the local Windows x64 machine.
+Compiler: MSVC, C++17, /O2 /DNDEBUG.
+Two untimed warm-ups, five timed trials; median milliseconds per array.
+Copying inputs and comparing against std::sort occur outside timing.
+Distinct values; strings are zero-padded to eight characters.
+Run Release QuickSort.exe [output-directory] to regenerate CSV and SVG files.
+Results depend on the machine and current load.
